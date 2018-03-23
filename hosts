@@ -1,0 +1,9 @@
+# Ansible hosts file
+
+[routers]
+rtr1 ansible_host=192.168.202.149
+rtr2 ansible_host=192.168.202.150
+
+[asr]
+asr1 ansible_host=172.21.56.120
+asr2 ansible_host=172.21.56.121
